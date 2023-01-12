@@ -22,6 +22,14 @@ const routes: Routes = [
     path: 'card',
     loadChildren: () => import('./pages/components/card/card.module').then( m => m.CardPageModule)
   },
+  {
+    path: 'alert',
+    loadChildren: () => import('./pages/components/alert/alert.module').then( m => m.AlertPageModule)
+  },
+  {
+    path: 'camera',
+    loadChildren: () => import('./pages/native/camera/camera.module').then( m => m.CameraPageModule)
+  },
 ];
 
 @NgModule({

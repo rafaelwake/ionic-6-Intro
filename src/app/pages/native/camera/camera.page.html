@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Câmera</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-button (click)="openCamera()" expand="block" shape="round">
+    Take a picture
+  </ion-button>
+
+  <ion-card [hidden]="!foto">
+    <img src="{{foto}}">
+  </ion-card>
+</ion-content>
