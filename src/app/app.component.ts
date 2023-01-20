@@ -11,6 +11,7 @@ export class AppComponent {
     { title: 'Card', url: 'card', icon: 'bag' },
     { title: 'Alert', url: 'alert', icon: 'bag' },
     { title: 'Câmera', url: 'camera', icon: 'bag' },
+    { title: 'Flash', url: 'flash', icon: 'flash' },
   ];
   constructor() {}
 }
